@@ -1,10 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #001f3f;
-    color: #e0e0e0;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    scroll-behavior: smooth;
 }
 .container {
     display: flex;
@@ -12,9 +13,9 @@ body {
 }
 .sidebar {
     width: 30%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #ddd;
     padding: 20px;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,8 +26,8 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
-    border: 3px solid #4CAF50;
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    border: 3px solid #ccc;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 .profile-photo img {
     width: 100%;
@@ -36,15 +37,14 @@ body {
 .main-content {
     width: 70%;
     padding: 20px;
-    background: linear-gradient(45deg, #001f3f, #003366);
+    background: #fff;
 }
 h1, h2, h3 {
-    color: #4CAF50;
+    color: #555;
     text-transform: uppercase;
 }
 .name, .bio {
-    color: #00FFFF;
-    text-shadow: 0 0 5px #00FFFF;
+    color: #555;
     text-align: center;
 }
 nav ul {
@@ -55,21 +55,21 @@ nav ul li {
     margin-bottom: 10px;
 }
 a {
-    color: #FFA500;
+    color: #555;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 a:hover {
-    color: #FFD700;
+    color: #000;
 }
 .research-item {
     margin-bottom: 30px;
     display: flex;
     align-items: flex-start;
-    background: rgba(0, 0, 0, 0.3);
+    background: #eee;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .research-info {
     flex: 1;
@@ -81,12 +81,12 @@ a:hover {
 .research-figure img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #4CAF50;
+    border: 2px solid #ccc;
     border-radius: 5px;
 }
 .demo {
     margin-bottom: 20px;
-    background: rgba(0, 0, 0, 0.3);
+    background: #eee;
     padding: 15px;
     border-radius: 10px;
 }
@@ -104,4 +104,21 @@ a:hover {
     pointer-events: none;
     z-index: -1;
     opacity: 0.1;
+    animation: moveBackground 30s linear infinite;
+}
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar, .main-content {
+        width: 100%;
+    }
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+    }
 }
