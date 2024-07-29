@@ -25,7 +25,7 @@ p {
     min-height: 100vh;
 }
 .sidebar {
-    width: 25%;
+    width: 20%;
     background-color: #ddd;
     padding: 20px;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@ a:hover {
     color: #000;
 }
 .research-item {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     display: flex;
     align-items: flex-start;
     background: #eee;
