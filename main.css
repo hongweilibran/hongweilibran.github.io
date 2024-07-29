@@ -6,13 +6,26 @@ body {
     padding: 0;
     line-height: 1.6;
     scroll-behavior: smooth;
+    font-size: 16px; /* Adjust the body font size here */
+}
+h1 {
+    font-size: 1.45em; /* Adjust the h1 font size here */
+}
+h2 {
+    font-size: 1.4em; /* Adjust the h2 font size here */
+}
+h3 {
+    font-size: 1.3em; /* Adjust the h3 font size here */
+}
+p {
+    font-size: 1em; /* Adjust the paragraph font size here */
 }
 .container {
     display: flex;
     min-height: 100vh;
 }
-.sidebar { 
-    width: 20%;
+.sidebar {
+    width: 25%;
     background-color: #ddd;
     padding: 20px;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
@@ -20,9 +33,23 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.social-icons {
+    display: flex;
+    gap: 15px; /* Adjust spacing between icons */
+    margin-top: 20px;
+}
+.social-icons a {
+    color: #555; /* Icon color */
+    font-size: 1.5em; /* Adjust icon size */
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #000; /* Icon color on hover */
+}
 .profile-photo {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
@@ -35,13 +62,13 @@ body {
     object-fit: cover;
 }
 .main-content {
-    width: 70%;
+    width: 75%;
     padding: 20px;
     background: #fff;
 }
 h1, h2, h3 {
     color: #555;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .name, .bio {
     color: #555;
