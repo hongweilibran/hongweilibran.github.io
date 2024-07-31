@@ -25,7 +25,7 @@ p {
     min-height: 100vh;
 }
 .sidebar {
-    width: 20%;
+    width: 16%;
     background-color: #ddd;
     padding: 20px;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
@@ -48,8 +48,8 @@ p {
     color: #000; /* Icon color on hover */
 }
 .profile-photo {
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
@@ -62,9 +62,11 @@ p {
     object-fit: cover;
 }
 .main-content {
-    width: 75%;
+    width: 70%;
     padding: 20px;
     background: #fff;
+    max-width: 1000px; /* Set a maximum width */
+    margin-right: 20px; /* Add margin to the right */
 }
 h1, h2, h3 {
     color: #555;
@@ -97,6 +99,9 @@ a:hover {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.term-link {
+    text-decoration: underline; /* Ensure underline for specific term links */
 }
 .research-info {
     flex: 1;
