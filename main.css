@@ -6,7 +6,7 @@ body {
     padding: 0;
     line-height: 1.6;
     scroll-behavior: smooth;
-    font-size: 16px; /* Adjust the body font size here */
+    font-size: 14px; /* Adjust the body font size here */
 }
 h1 {
     font-size: 1.45em; /* Adjust the h1 font size here */
