@@ -118,7 +118,7 @@ a:hover {
     margin-left: 20px;
 }
 .research-figure img {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     border: 1px solid #ccc;
     border-radius: 2px;
