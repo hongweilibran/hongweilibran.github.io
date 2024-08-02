@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #0b0b0b;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -32,6 +32,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.research-image {
+    max-width: 100%; /* Ensures the image does not overflow its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 5px; /* Adds slightly rounded corners to the image */
+    margin-top: 10px; /* Adds some space above the image */
 }
 
 .social-icons {
@@ -73,7 +80,7 @@ h1, h2, h3 {
     /* text-transform: uppercase; */
 }
 .name, .bio {
-    color: #555;
+    color: #090808;
     text-align: center;
 }
 nav ul {
@@ -84,7 +91,7 @@ nav ul li {
     margin-bottom: 10px;
 }
 a {
-    color: #555;
+    color: #0d0c0c;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -92,13 +99,13 @@ a:hover {
     color: #000;
 }
 .research-item {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     display: flex;
     align-items: flex-start;
     background: #eee;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .term-link {
     text-decoration: underline; /* Ensure underline for specific term links */
@@ -113,8 +120,8 @@ a:hover {
 .research-figure img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
 }
 .demo {
     margin-bottom: 20px;
