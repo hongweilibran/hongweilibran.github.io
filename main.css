@@ -25,7 +25,7 @@ p {
     min-height: 100vh;
 }
 .sidebar {
-    width: 16%;
+    width: 15%;
     background-color: #ddd;
     padding: 18px;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
