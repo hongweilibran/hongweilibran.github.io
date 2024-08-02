@@ -27,7 +27,7 @@ p {
 .sidebar {
     width: 16%;
     background-color: #ddd;
-    padding: 20px;
+    padding: 18px;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
