@@ -80,7 +80,7 @@ h1, h2, h3 {
     /* text-transform: uppercase; */
 }
 .name, .bio {
-    color: #090808;
+    color: #090909;
     text-align: center;
 }
 nav ul {
@@ -91,12 +91,12 @@ nav ul li {
     margin-bottom: 10px;
 }
 a {
-    color: #0d0c0c;
+    color: #050505;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 a:hover {
-    color: #000;
+    color: #060505;
 }
 .research-item {
     margin-bottom: 5px;
