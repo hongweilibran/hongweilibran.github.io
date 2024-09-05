@@ -34,6 +34,18 @@ p {
     align-items: center;
 }
 
+.news-item-blue {
+    color: #007BFF; /* Bootstrap blue */
+}
+
+.news-item-green {
+    color: #28A745; /* Bootstrap green */
+}
+
+.news-item-yellow {
+    color: #FFC107; /* Bootstrap yellow */
+}
+
 .research-image {
     max-width: 100%; /* Ensures the image does not overflow its container */
     height: auto; /* Maintains the aspect ratio of the image */
