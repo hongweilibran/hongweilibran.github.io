@@ -96,7 +96,7 @@ h1, h2, h3 {
 .name {
     color: #090909;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* soft shadow */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); /* soft shadow */
 }
 
 .name, .bio {
