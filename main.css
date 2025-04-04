@@ -1,13 +1,14 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
     background-color: #f4f4f4;
     color: #070606;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     scroll-behavior: smooth;
-    font-size: 14px; /* Adjust the body font size here */
+    font-size: 14px;
 }
+
 h1 {
     font-size: 1.45em; /* Adjust the h1 font size here */
 }
